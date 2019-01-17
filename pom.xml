@@ -16,6 +16,12 @@
     </dependency>
   </dependencies>
   <build>
+    <distributionManagement>
+   <snapshotRepository>
+      <id>test</id>
+      <url>http://192.168.1.155:8081/repository/test/</url>
+   </snapshotRepository>
+</distributionManagement>
     <plugins>
       <plugin>
         <!-- Build an executable JAR -->
