@@ -10,7 +10,7 @@ pipeline {
 		
     stage('start release') {
              steps {
-               sh'mvn jgitflow:release-start'
+               sh'mvn -X jgitflow:release-start'
 			 }
     }
 
