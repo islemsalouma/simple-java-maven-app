@@ -33,7 +33,7 @@
           </archive>
         </configuration>
       </plugin>
-	      <plugins>
+	      </plugins>
 </build>
 	 <build>
   <plugins>
@@ -57,7 +57,7 @@
             <scmCommentPrefix>[RELEASE] </scmCommentPrefix>
         </configuration>
     </plugin>
-  <plugins>
+  </plugins>
 </build>
  
      <distributionManagement>
