@@ -9,8 +9,9 @@ pipeline {
         }
 		
     stage('start release') {
-
+             steps {
                sh'mvn jgitflow:release-start'
+			 }
     }
 
 
