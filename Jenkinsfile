@@ -7,6 +7,13 @@ pipeline {
                 sh 'mvn -B -DskipTests clean package'
             }
         }
+		
+    stage('start release') {
+
+               sh'mvn jgitflow:release-start'
+    }
+
+
         
     }
 }
