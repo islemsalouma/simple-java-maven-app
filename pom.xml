@@ -47,8 +47,6 @@
 				<hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
 				<versionTagPrefix>${project.artifactId}-</versionTagPrefix>
 			</flowInitContext>
-			<username>islemsalouma</username>
-                        <password>Islem123456789*</password>
 		</configuration>
       </plugin>
     </plugins>
