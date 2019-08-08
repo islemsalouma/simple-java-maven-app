@@ -33,6 +33,8 @@
           </archive>
         </configuration>
       </plugin>
+	      <plugins>
+</build>
 	 <build>
   <plugins>
       <plugin>
