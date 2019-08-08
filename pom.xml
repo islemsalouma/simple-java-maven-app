@@ -41,7 +41,7 @@
 			<pushFeatures>true</pushFeatures>
 			<pushHotfixes>true</pushHotfixes>
 			<pushReleases>true</pushReleases>
-			<enableSshAgent>false</enableSshAgent>
+			<enableSshAgent>true</enableSshAgent>
 			<noDeploy>true</noDeploy>
 			<flowInitContext>
 				<masterBranchName>master</masterBranchName>
