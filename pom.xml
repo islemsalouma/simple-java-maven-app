@@ -41,7 +41,7 @@
 			<pushFeatures>true</pushFeatures>
 			<pushHotfixes>true</pushHotfixes>
 			<pushReleases>true</pushReleases>
-			<enableSshAgent>true</enableSshAgent>
+			<enableSshAgent>false</enableSshAgent>
 			<noDeploy>true</noDeploy>
 			<flowInitContext>
 				<masterBranchName>master</masterBranchName>
@@ -51,6 +51,8 @@
 				<hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
 				<versionTagPrefix>${project.artifactId}-</versionTagPrefix>
 			</flowInitContext>
+			<username>islemsalouma</username>
+                        <password>Islem123456789*</password>
 		</configuration>
       </plugin>
     </plugins>
